@@ -30,7 +30,7 @@ class ApprovedAppointment extends Mailable
     {
         return $this
         ->from('support@wellness.com')
-        ->to('shaheen.aal@protonmail.com')
+        ->to('example@example.com')
         ->subject('approved payment')
         ->markdown('emails.appoint');
     }
